@@ -3,6 +3,7 @@
 pkg update && pkg upgrade -y
 pkg install git -y
 pkg install bash -y
+pkg install jq -y
 git clone https://github.com/HanX-ID/stalk
 cd stalk
 bash main.sh
